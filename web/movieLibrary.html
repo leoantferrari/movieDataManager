@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leo Ferrari"/>
+    <meta name="description" content="displays MovieList"/>
+    <title>MovieList</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/movieLibrary.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+<h3>MovieList</h3>
+<div id="message" style="color: red;"></div>
+<button type="button" id="logoff">Sign Out</button>
+<form id="libraryForm">
+    <table id="movieLibrary">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Description</th>
+            <th>Length</th>
+            <th>Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <p>
+        <a href="./movieEdit.html?id=-1">New Movie</a>
+    </p>
+</form>
+</body>
+</html>

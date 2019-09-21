@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leo Ferrari"/>
+    <meta name="description" content="movie form login"/>
+    <title>login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="styles/style_login.css" rel="stylesheet" type="text/css"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+<form id="loginForm" name="login">
+    <h3>Login</h3>
+    <div id="message" style="color: red;"></div>
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><input id="username" name="username" type="text" size="30" maxlength="40" required/></td>
+        </tr>
+        <tr>
+            <td>Passwort</td>
+            <td><input id="password" name="password" type="password" size="30" maxlength="40" required/></td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="logon" type="button">Login</button>
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>

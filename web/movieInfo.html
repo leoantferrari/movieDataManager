@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leo Ferrari"/>
+    <meta name="description" content="form to edit movies"/>
+    <title id="pageTitle"></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/movieInfo.js"></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+<form id="movieEditForm" name="movieEdit">
+
+    <div id="message" style="color: red;"></div>
+    <button type="button" id="logoff">Sign Out</button>
+    <table>
+        <tr>
+            <td>Movie title: </td>
+            <td><h1 id ="title"></h1></td>
+        </tr>
+        <tr>
+            <td>Director: </td>
+            <td><div id="director"></div></td>
+        </tr>
+        <tr>
+            <td>Description: </td>
+            <td>
+                <div id="description"></div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Length(minutes): </td>
+            <td><div id="length"></div></td>
+        </tr>
+        <tr>
+            <td>Rating:</td>
+            <td>
+                <div id="rating"></div>
+
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <button id="edit" type="button">Edit Movie</button>
+            </td>
+            <td>
+               <button id="delete" type="delete">Delete Movie</button>
+            </td>
+            <td>
+                <button id="cancel" type="button">back</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
